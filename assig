@@ -1,0 +1,57 @@
+print("Welcome Stephen ")
+print("press pin ")
+stpin = (input("pin "))
+print("Please select your account")
+Account = ['0. Savings', '1. Current']
+for x in Account:
+    print(x)
+AS = int(input())
+print(Account[AS])
+if AS == 0:
+    Transaction = ['0. Withdrawal', '1. Deposit', '2. Transfer', '3. Check Balance', '4. Airtime Recharge']
+else:
+    Transaction = ['0. Withdrawal', '1. Deposit', '2. Transfer', '3. Check Balance']
+for i in Transaction:
+	print(i)
+TS = int(input())
+print(Transaction[TS])
+if TS == 0:
+	Currency = ['0. 1000', '1. 2000', '2. 5000', '3. 10000']
+elif TS == 1:
+	Currency = ['0. 1000', '1. 2000', '2. 5000', '3. 10000']
+elif TS == 2:
+	Currency = ['0. 1000', '1. 2000', '2. 5000', '3. 10000']
+elif TS == 3:
+	Currency = ['0. 1000', '1. 2000', '2. 5000', '3. 10000']
+else:
+	Currency = ['0. 1000', '1. 2000', '2. 5000', '3. 10000']
+for i in Currency:
+	print(i)
+CY = int(input())
+print(Currency[CY])
+if CY == 0:
+	Ct = 1000
+	balance = 1000
+	balance_receipt = balance - Ct
+elif CY == 1:
+	Ct = 2000
+	balance = 10000
+	balance_receipt = balance - Ct
+elif CY == 2:
+	Ct = 5000
+	balance = 10000
+	balance_receipt = balance - Ct
+
+else:
+	Ct = 10000
+	balance = 10000
+	balance_receipt = balance - Ct
+for i in Currency:
+	print(i)
+if balance ==10000 :
+	print("transaction successful ")
+	print("your balance is: ", balance_receipt )
+elif balance <10000:
+	print("insufficient balance")
+else:
+	print("Transaction unsuccessful ")

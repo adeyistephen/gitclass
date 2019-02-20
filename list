@@ -1,0 +1,29 @@
+Fruit = ['Apple', 'Banana', 'Orange', 'Peer']
+print(Fruit)
+print(Fruit[1])
+Fruit[2] = 'Pinapple'
+print(Fruit)
+for i in Fruit:
+	print(i)
+if 'Orange' in Fruit:
+	print('Yes we have Orange')
+else:
+	print('no Orange in the Fruit')
+Total_element = len(Fruit)
+print(Total_element)
+Fruit.append('Orange')
+print(Fruit)
+Total_element = len(Fruit)
+print(Total_element)
+Fruit.insert(1, 'Orange')
+print(Fruit)
+Fruit.remove('Orange')
+print(Fruit)
+Fruit.pop()
+print(Fruit)
+Fruit.pop(1)
+print(Fruit)
+del Fruit[0]
+print(Fruit)
+Fruit.clear()
+print(Fruit)

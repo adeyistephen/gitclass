@@ -1,0 +1,18 @@
+Town = {'Lagos', 'Ibadan', 'Oyo', 'Ilorin'}
+for i in Town:
+	print(i)
+print('Oyo' in Town)
+Town.add('Abuja')
+print(Town)
+Town.update(['Ogbomoso', 'Iseyin', 'Kaduna'])
+print(Town)
+x =len(Town)
+print(x)
+Town.remove('Lagos')
+print(Town)
+Town.discard('Portharcourt')
+#print(Town)
+Town = {'Lagos', 'Ibadan', 'Oyo', 'Ilorin'}
+x = Town.pop()
+print(x)
+print(Town)

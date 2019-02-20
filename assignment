@@ -1,0 +1,36 @@
+print("welcome peter ")
+print("press pin ")
+stpin = (input("pin "))
+print("""Please click one option:
+1. savings
+2. current """ ) 
+sv = input("first option ")
+print("""
+1. withdrawal
+2. Deposit
+3. Airtime Recharge
+4. transfer """)
+sw = input("first option ")
+print("""select the amount to withdraw
+1.1000
+2.5000
+3.10000
+4.20000 """)
+sd = input("second option ")
+print("""select the amount to deposit
+1.1000
+2.5000
+3.10000
+4.20000 """)
+sp = int(input("price ")) 
+balance = 10000
+balance_receipt = balance - sp
+if balance >5000 :
+	print("transaction successful ")
+	print("your balance is: ", balance_receipt )
+else:
+	print("transaction unsuccessful ")
+
+
+
+

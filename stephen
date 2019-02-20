@@ -1,0 +1,15 @@
+stname = input("name ")
+name = "sqi ";
+web = int(input("webclass "))
+python = int(input("pythonclass "))
+dba = int(input("dbadmin "))
+result = web + python + dba
+print(stname, "your result is ",result)
+if result> 200:
+	print("Excellent ")
+elif result> 100:
+	print("very good ")
+elif result>50:
+	print("good ")
+else:
+	print("poor ") 

@@ -1,0 +1,18 @@
+print("welcome stephen to the house")
+print("""please select two option from the list below:
+1. sleep
+2. film
+3. music
+4. game""")
+fv = input("first option ")
+sv= input("second option ")
+if fv == "film" and sv == "sleep":
+	print("not enter ")
+elif sv == "film" and fv == "music":
+	print("error")  
+elif sv == "music" and fv == "game":
+	print("u are welcome")
+else:
+	print("not welcome")
+
+ 

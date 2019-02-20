@@ -1,0 +1,24 @@
+print("welcome Stephen ")
+print("fill the form below ")
+stname = (input("Name "))
+print("Status ")
+print("""Please click one option:
+1. single
+2. married """ ) 
+sv = input("first option ")
+print("Gender ")
+print("""Please click one option:
+1. male
+2. female """ )
+sw = input("first option ")
+if sv == "1" and sw == "1":
+    print("master")
+elif sv == "2" and sw == "1":
+    print("mr")
+elif sv == "1" and sw == "2":
+    print("miss")
+elif sv == "2" and sw == "2":
+    print("mrs")
+else:
+    print("void")
+

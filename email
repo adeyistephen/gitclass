@@ -1,0 +1,45 @@
+print("School Category ")
+print(""" if Age is:
+0. <5
+1. 5
+2. 15
+3. 16
+4. 20
+5. 21
+6. 30 
+7. >30""" )
+sw = input("first option ")
+sq = input("second option ")
+if sw == "1" and sq == "2":
+    print("You are qualified for primary School ")
+elif sw == "3" and sq == "4":
+    print("You are qualified for High School")
+elif sw == "5" and sq == "6":
+    print("You are qualified for Tertiary School")
+elif sw == "0" and sq == "7":
+    print("Not qualified")
+stname = (input("name "))
+print(""" Status
+1. single
+2. married""")
+sv = input("first option ")
+if sv == "1" and sw == "1" and sq == "2":
+    print("Steve you can register for primary")
+elif sv == "2" and sw == "1" and sq == "2":
+    print("Steve you are not eligible to register for primary")
+elif sv == "1" and sw == "3" and sq == "4":
+    print("Steve you are eligible to register for high school")
+elif sv == "2" and sw == "3" and sq == "4":
+    print("Steve you are not eligible to register for high school")
+elif sv == "1" and sw == "5" and sq == "6":
+    print("Steve you are eligible to register for Tertiary")
+elif sv == "2" and sw == "5" and sq == "6":
+    print("Steve you are not eligible to register for Tertiary")
+elif sv == "1" and sw == "0" and sq == "7":
+    print("Steve you are not qualified to register in this school")
+elif sv == "2" and sw == "0" and sq == "7":
+    print("Steve you are not qualified for registration in this school")
+
+
+
+

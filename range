@@ -1,0 +1,5 @@
+for x in range(1,13):
+    for y in range(1,7):
+        s = int(x) * int(y)
+        print("%s X %s = %d"%(x,y,s))
+         

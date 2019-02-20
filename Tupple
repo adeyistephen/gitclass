@@ -1,0 +1,5 @@
+School = ('Lautech', 'OAU', 'UI', 'LASU')
+print(School)
+print(School[1])
+for x in School:
+	print(x)

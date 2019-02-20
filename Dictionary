@@ -1,0 +1,29 @@
+Student = {"School" : "Lautech", 'Name': 'Tope', 'Level' : '200', 'Course': 'Mech'}
+#print(Student)
+x = Student['School']
+#print(x)
+y = Student.get('Course')
+#print(y)
+Student['Level'] = '300'
+#print(Student)
+#for x in Student:
+	#print(Student[x])
+#for x in Student.values():
+  #  print(x)
+#for x,y in Student.items():
+ #   print(x,y)
+#if 'School' in Student:
+ #   print('Yes it is available')
+#x = len(Student)
+#print(x)
+Student['Sex'] = 'Male'
+Student['Age'] = '22'
+#print(Student)
+Student.pop('Level')
+#print(Student)
+Student.popitem()
+print(Student)
+#Student.clear()
+print(Student)
+del Student['Course']
+print(Student)

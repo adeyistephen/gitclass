@@ -1,0 +1,17 @@
+a = 2
+s = '2'
+if s == a:
+    print('Correct')
+else:
+    print('wrong')
+if s==a:
+    print('correct')
+else:
+   # print('wrong')
+
+
+
+
+print("welcome Stephen Adeyi")
+stname = input("Name":"Stephen")
+

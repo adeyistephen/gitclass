@@ -1,0 +1,5 @@
+print("Fill the following forms below: ")
+Biodata = {"Full Name": input("Full Name ") , "State": input("State "), "Age": input("Age "), "Course": input("Course "), "Level": input("Level "), "Dept": input("Dept ") }
+print("Congratulations the form has been filled successfully ")
+for x,y in Biodata.items():
+    print(x,y)
